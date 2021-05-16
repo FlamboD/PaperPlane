@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Girassol">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}" type="text/css">
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <title>Title</title>
+</head>
+<body id="body">
+    <div class="center title"><h1>Paper Plane</h1></div>
+    <hr>
+    <div id="page_body">
+        <div id="side_icons">
+            <div class="side_icon" title="Account"></div>
+            <div id="side_icon_message" class="side_icon" title="Message" onclick="onMessageIconClick()"></div>
+            <div class="side_icon" title="Settings"></div>
+            <div id="message_box_container" class="message_box_container">
+                <div class="pointer"></div>
+                <div class="message_box">
+                    <label>
+                        <textarea class="message_input"></textarea>
+                    </label>
+                    <br>
+                    <button class="message_send">Send</button>
+                </div>
+            </div>
+        </div>
+        <div id="timeline">
+            <h2>Timeline</h2>
+        </div>
+        <div id="blank_panel"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/load.js') }}"></script>
+</body>
+</html>
