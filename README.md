@@ -1,4 +1,4 @@
-#Paper Plane
+# Paper Plane
 #### _This application was created by Haroun Mohamed-Fakier for the coding exercise given by AppFactory_
 
 ### How the application works
@@ -20,4 +20,4 @@ Enter the command `python -m pip install -r requirements.txt`
 
 Then enter the command ``python main.py``
 
-Go to [localhost:2727](localhost:2727) in your browser to use the application.
+Go to [localhost:2727](http://localhost:2727/) in your browser to use the application.
