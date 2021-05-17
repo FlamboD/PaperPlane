@@ -7,12 +7,15 @@ Paper Plane allows you to enter a message into the message box.
 Once you send the message it shows up on the timeline without needing to refresh the page.
 
 ![Message icon](https://imgur.com/hQBgLVe.png)
+
 Click on the message icon.
 
 ![Enter and send message](https://imgur.com/c7wSJrj.png)
+
 Enter a message and click send.
 
 ![Timeline](https://imgur.com/xW60q9w.png)
+
 The message will show up on the timeline.
 
 ### How the components fit together
