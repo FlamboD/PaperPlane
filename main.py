@@ -1,10 +1,11 @@
-import json
+from flask import Flask, request, render_template
 from datetime import datetime
+
+import json
 import random
 import sqlite3
 import logging
 
-from flask import Flask, request, render_template
 
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")

@@ -1,3 +1,5 @@
+var animation;
+
 function onMessageIconClick() {
     let side_icon_message = document.getElementById("side_icon_message");
     let message_box = document.getElementById("message_box_container");
@@ -31,6 +33,10 @@ function onInputChange()
 
 function fadeIn(elem)
 {
+    if(animation) {
+        clearTimeout(animation);
+        animation = null;
+    }
     if(elem.style.visibility === "hidden")
     {
         elem.style.animation = null;
@@ -45,9 +51,9 @@ function fadeOut(elem)
     {
         elem.style.animation = null;
         elem.style.animation = "fadeout 1s";
-        setTimeout(() => {
+        animation = setTimeout(() => {
             elem.style.visibility = "hidden";
-        }, 900)
+        }, 900);
     }
 }
 
