@@ -9,7 +9,7 @@ import logging
 
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")
-log.setLevel(logging.ERROR)
+log.setLevel(logging.WARNING)
 sql_path = "messages.sqlite"
 
 
@@ -62,4 +62,4 @@ def get_messages_after(timestamp=0):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run("localhost", 2727)
