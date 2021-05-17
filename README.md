@@ -10,13 +10,19 @@ Once you send the message it shows up on the timeline without needing to refresh
 
 Click on the message icon.
 
+
+
 ![Enter and send message](https://imgur.com/c7wSJrj.png)
 
 Enter a message and click send.
 
+
+
 ![Timeline](https://imgur.com/xW60q9w.png)
 
 The message will show up on the timeline.
+
+
 
 ### How the components fit together
 1. I used HTML and CSS to create the page.
