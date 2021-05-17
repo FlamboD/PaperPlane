@@ -8,7 +8,7 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")
-# log.setLevel(logging.ERROR)
+log.setLevel(logging.ERROR)
 sql_path = "messages.sqlite"
 
 
