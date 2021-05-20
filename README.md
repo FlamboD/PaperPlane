@@ -1,6 +1,18 @@
 # Paper Plane
 #### _This application was created by Haroun Mohamed-Fakier for the coding exercise given by AppFactory_
 
+### Exercise specifications
+- Create a Twitter like application where a user may enter messages (where each message is a maximum of 140 characters long) and the messages are displayed on screen.
+- New messages should be displayed on the screening using Ajax, not a refresh of the entire page.
+- The application must be implemented using the Python Flask web framework and a SQLite database.
+- You do not need to implement user authentication.
+
+### What we’re looking for:
+- A solution that works and demonstrates the ability to enter a status and persist it in the database. A basic user interface is expected, however if time permits, you can enhance the aesthetics and make it visually appealing.
+- Good coding practices.
+- Remember this is a test of your abilities and therefore must be your work only.
+- A well formatted README file in the GitHub repository with a description of how the application works, how the components fit together and instructions of how to run the application.
+
 ### How the application works
 
 Paper Plane allows you to enter a message into the message box. 
