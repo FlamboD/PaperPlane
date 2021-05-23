@@ -9,7 +9,7 @@ import logging
 
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")
-log.setLevel(logging.WARNING)
+# log.setLevel(logging.WARNING)
 sql_path = "messages.sqlite"
 
 

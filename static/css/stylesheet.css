@@ -8,6 +8,7 @@
     100% {opacity: 0; visibility: hidden;}
 }
 
+/* Defaults */
 :root
 {
     --gold: #dea107;
@@ -32,6 +33,7 @@ body
     width: 100%;
 }
 
+/* Top banner*/
 #logo
 {
     position: absolute;
@@ -47,11 +49,14 @@ body
     color: var(--blue);
 }
 
+/* Page */
 #page_body
 {
     height: 500px;
     display: flex;
 }
+
+/* Side icons */
 #side_icons
 {
     width: 25%;
@@ -82,6 +87,7 @@ body
     border-radius: 50%;
 }
 
+/* Timeline */
 #timeline
 {
     position: relative;
@@ -115,14 +121,32 @@ body
     padding: 5px 5px 5px 35px;
     border-bottom: 2px solid deepskyblue;
 }
+.author
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.timestamp_container
+{
+    position: static;
+    width: 100%;
+    height: 10px;
+}
+.timestamp
+{
+    float: right;
+    font-size: 10px;
+    color: lightslategray;
+}
 
+/* Right panel */
 #blank_panel
 {
     width: 25%;
     height: 100%;
 }
 
-
+/* Message box */
 #message_box_container
 {
     position: absolute;
